@@ -1,7 +1,6 @@
 import {
   Flex,
   Heading,
-  Icon,
   IconButton,
   Spacer,
   useColorMode,
@@ -19,7 +18,7 @@ function App() {
       align="center"
       gap={4}
       bg={useColorModeValue("gray.100", "gray.700")}
-      borderBottom={`1px solid ${useColorModeValue("black", "white")}`}
+      borderBottom={`2px solid ${useColorModeValue("black", "white")}`}
     >
       <Webcam size={32} weight="duotone" />
       <Heading size="md" fontFamily={"Poppins"}>
